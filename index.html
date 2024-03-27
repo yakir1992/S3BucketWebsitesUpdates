@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yakir Ben Harush - DevOps Engineer</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+
+        h1 {
+            margin: 0;
+            font-size: 36px;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .content {
+            padding: 20px;
+        }
+
+        .project {
+            margin-bottom: 20px;
+            border-bottom: 1px solid #ccc;
+            padding-bottom: 20px;
+        }
+
+        .project:last-child {
+            margin-bottom: 0;
+            border-bottom: none;
+            padding-bottom: 0;
+        }
+
+        .project h2 {
+            margin-top: 0;
+            font-size: 24px;
+        }
+
+        .project p {
+            margin-bottom: 10px;
+        }
+
+        /* CSS animations */
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+            }
+            to {
+                opacity: 1;
+            }
+        }
+
+        .fadeIn {
+            animation-name: fadeIn;
+            animation-duration: 1s;
+        }
+
+        /* Profile image */
+        .profile-image {
+            max-width: 100%;
+            border-radius: 50%;
+            margin-bottom: 20px;
+            animation: rotate 4s linear infinite;
+        }
+
+        @keyframes rotate {
+            from {
+                transform: rotate(0deg);
+            }
+            to {
+                transform: rotate(360deg);
+            }
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Yakir Ben Harush</h1>
+    <p>DevOps Engineer</p>
+</header>
+
+<!-- Profile image -->
+<div class="container">
+    <img src="https://myterraformprojectwebsite2024newst.s3.amazonaws.com/profile.jpg" alt="Profile Image" class="profile-image">
+    <div class="content">
+        <div class="project fadeIn">
+            <h2>Project 1</h2>
+            <p>Description of Project 1</p>
+        </div>
+        <div class="project fadeIn" style="animation-delay: 0.2s;">
+            <h2>Project 2</h2>
+            <p>Description of Project 2</p>
+        </div>
+        <div class="project fadeIn" style="animation-delay: 0.4s;">
+            <h2>Project 3</h2>
+            <p>Description of Project 3</p>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
