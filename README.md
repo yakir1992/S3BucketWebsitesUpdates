@@ -2,12 +2,7 @@
 
 The project aims to create a static website hosted on AWS S3 (Simple Storage Service) using Terraform for infrastructure provisioning and HTML for website content. AWS S3 provides a cost-effective and scalable solution for hosting static websites with high availability.
 
-Technologies Used:
 
-AWS S3: For hosting the static website content.
-Terraform: For provisioning and managing AWS resources.
-HTML: For creating the static website content.
-Optionally, you might use Route 53 for DNS management and CloudFront for content delivery and SSL termination.
 
 Project Steps:
 

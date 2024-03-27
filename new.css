@@ -1,0 +1,16 @@
+<div class="nav-bar">
+  <div class="nav-inside">
+ <div class="calc-name">   
+  <h1>Random CSS</h1>
+   </div>
+  <div class="icon-box">
+    <i onclick="darken(),otherapps()" class="fas fa-th"></i>
+    <i onclick="darkentwo(),togglesettings()" class="fas mleft fa-cog"></i>   
+    </div>
+    </div>
+  </div>
+<div class="basic-card">
+  <div class="padding-box">
+    Yeet
+    </div>
+  </div>
